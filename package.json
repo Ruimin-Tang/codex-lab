@@ -1,0 +1,15 @@
+{
+  "name": "codex-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private sandbox for Codex GitHub workflow testing",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "build": "node --check src/greeting.js && node --check src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
