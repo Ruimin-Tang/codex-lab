@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/cli.js",
     "test": "node --test",
-    "build": "node --check src/greeting.js && node --check src/cli.js"
+    "build": "node --check src/greeting.js && node --check src/slugify.js && node --check src/cli.js"
   },
   "engines": {
     "node": ">=20"
