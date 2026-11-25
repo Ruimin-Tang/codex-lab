@@ -22,6 +22,7 @@
 ## 常用命令
 
 ```powershell
+npm run lint
 npm test
 npm run build
 npm start -- --name Codex
