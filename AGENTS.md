@@ -7,6 +7,7 @@
 ## 命令
 
 ```powershell
+npm run lint
 npm test
 npm run build
 npm start -- --name Codex
@@ -18,10 +19,11 @@ npm start -- --name Codex
 - 优先使用 Node.js 内置模块，不新增依赖，除非有明确收益。
 - 功能修改必须同时补充测试。
 - 不修改 `.github/workflows/ci.yml` 来绕过失败。
-- 完成后必须运行 `npm test` 和 `npm run build`。
+- 完成后必须运行 `npm run lint`、`npm test` 和 `npm run build`。
 
 ## 验收标准
 
+- lint 通过
 - 测试全部通过
 - 构建检查全部通过
 - 变更范围与 Issue 一致
